@@ -1,4 +1,6 @@
 function [ race_new ] = ga_invert( race,P_Cross )
+%倒序
+%随机取两点，逆转两点之间的基因排列
 k=race(1,1);
 [m,n]=size(race);
 race=race(1:m,2:n-1);

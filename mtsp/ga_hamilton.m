@@ -1,4 +1,5 @@
 function [ path_new ] = ga_hamilton( path )
+%改良圈算法，输入一条路径，返回一条改良之后的路径
 load city_distance.mat;
 len=length(path);
 path_new=path;

@@ -1,4 +1,5 @@
 function [ race_new ] = ga_cross( race,P_Cross )
+%Ë³Ðò½»²æ
 k=race(1,1);
 [m,n]=size(race);
 race=race(1:m,2:n-1);

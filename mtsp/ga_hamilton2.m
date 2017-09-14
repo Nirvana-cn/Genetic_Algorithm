@@ -1,4 +1,5 @@
 function [ race_new ] = ga_hamilton2( race )
+%改良圈算法，输入一个种群，返回一个改良之后的种群
 load city_distance.mat;
 flag=0.7;
 [m,n]=size(race);
